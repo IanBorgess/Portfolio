@@ -7,132 +7,187 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body class="bg-dark">
+  <body class="">
     
-    <nav class="px-2 navbar navbar-expand-lg border-rounded">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white" href="#"><img src="img/_d9890d9c-e5b9-4482-9616-b27d35d15bc2-removebg-preview.png"></a>
-              <button class="navbar-toggler border border-2 border-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span><img class="img-fluid" src="img/59cfc4d2d3b1936210a5ddc7.png"></span>
-              </button>
-              <div class="collapse navbar-collapse fs5" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#quemsoueu">Quem sou eu?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#projetos">Projetos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#contatos">Fale Comigo!</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-    </nav>
-
-    <header class="container px-5 py-5">
-
-            <div class="row px-5 py-5 container-lg border border-dark rounded">
-                <div class="col">
-                  <h1 class="text-white">Olá, eu sou Ian Borges</h1>
-                  <h3 class="text-secondary">Desenvolvedor Front-end</h3>
+    <header>
+      <nav class="nav1 px-2 navbar navbar-expand-lg border-rounded">
+              <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#"><img src="img/_d9890d9c-e5b9-4482-9616-b27d35d15bc2-removebg-preview.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span><img class="img-fluid" src="img/59cfc4d2d3b1936210a5ddc7.png"></span>
+                </button>
+                <div class="collapse navbar-collapse fs5" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="#quemsoueu">Quem sou eu?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="#contatos">Fale Comigo!</a>
+                    </li>
+                  </ul>
                 </div>
-                <img class="i float-end col-2" src="img/profile-pic.png">
-
-        </div>
+              </div>
+      </nav>
     </header>
 
-    <main class="container px-5 py-5">
-        <div id="quemsoueu" class="row pb-5">
-            <div class=" px-5 py-5 container-lg border border-dark rounded">
-                <h3 class="text-secondary">Quem sou eu?</h3>
-                <h1 class="text-white">Sou um Desenvolvedor Front-end</h1>
-                <p class="text-white">Olá, meu nome é Ian, tenho 21 anos e atualmente me encontro muito no Web Development. Sou uma pessoa que adora a tranquilidade de trabalhar codando projetos em casa, mas tambem aprecio o trabalho em grupo. Comecei a minha jornada na programação no início de 2023, e atualmente estou cursando Sistemas de Informação. Neste momento, tenho o foco em aprimorar minhas habilidades na área de Web Dev com a stack Javascript. Estou ansioso com a oportunidade de encontrar meu primeiro trabalho como desenvolvedor!</p>
-            </div>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="" src="img/profile-pic (1).png" alt="Foto de perfil de Ian">
+      </div>
+            <div class="section-text">
+                  <p class="section__text__p1">Olá, eu sou</p>
+                  <h1 class="title text-dark">Ian Borges</h1>
+                  <p class="section__text__p2">Desenvolvedor Front-end</p>
+                  <div class="btn-container">
+                    <button class="button btn-color-1"
+                    onclick="window.open('https://drive.google.com/file/d/1eLLLm_jSFdZGrsoJdC2tttrgAGPJwkar/view?usp=sharing')">Baixe meu Currículo</button>
+                  </div>
+                  <div id="social-container">
+                    <img src="../img/Linkedin logo.png" alt="Meu Perfil no Linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/ian-borges-00507726a/'">
+                    <img src="../img/githublogo.png" alt="Meu Perfil no Github" class="icon" onclick="location.href='https://github.com/IanBorgess'">
+                  </div>
+                  <div><img class="icon flecha icone-flecha" src="../img/double-arrow.png" alt="Ícone de flecha" onclick="location.href='./#quemsoueu'"></div>
         </div>
+    </section>
 
-        <div id="skills" class="row py-5">
-          <div class=" px-5 py-5 container-lg text-center border border-dark rounded">
-              <h1 class="text-white">Skills</h1>
-              <img class="a col-6" src="img/icons8-html-5-96.png"><img class="a col-6" src="img/icons8-css-logo-96.png"><img class="b col-6" src="img/pngwing.com.png"><img class="c p-2 col-6" src="img/icons8-bootstrap-96.png">
+    <main>
+        <section id="quemsoueu">
+                  <h3 class="sobre-h3 text-secondary">Sobre mim</h3>
+                  <h1 class="sobre-h1 text-dark title">Quem sou eu?</h1>
+              <div class="section-container">
+                <div class="section__pic-container">
+                  <img src="../img/PSX_20240802_203936.jpg" class="sobre-foto" alt="Foto de perfil">
+              </div>
+                <div class="about-details-container container">
+                  <div class="container-sobre row row-cols-auto justify-content-center">
+                      <div class="details-container">
+                        <img class="icone-sobre" src="../img/422.png" alt="Ícone graduação">
+                        <h3 class="details-h3">Graduação</h3>
+                        <p class="details-p"> Cursando Sistemas de Informação</p>
+                      </div>
+                        <div class="text-container">
+                          <p class="sobre-p1 text-dark">Olá, meu nome é Ian, tenho 21 anos e atualmente me encontro muito no Web Development. Sou uma pessoa que adora a tranquilidade de trabalhar codando projetos em casa, mas tambem aprecio o trabalho em grupo. Comecei a minha jornada na programação no início de 2023, e atualmente estou cursando Sistemas de Informação. Neste momento, tenho o foco em aprimorar minhas habilidades na área de Web Dev com a stack Javascript. Estou ansioso com a oportunidade de encontrar meu primeiro trabalho como desenvolvedor!</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <div><img class="icon flecha icone-flecha" src="../img/double-arrow.png" alt="Ícone de flecha" onclick="location.href='./#skills'"></div>
+        </section>
+
+        <section  id="skills" >
+          <div class="py-5">
+            <div class="skills-section">
+                <h3 class="sobre-h3 text-secondary">Minhas</h3>
+                <h1 class="skills-h1 title">Habilidades</h1>
+                <div class="skills-container">
+          
+                  <div>
+                    <img class="a" src="../img/pngegg.png">
+                    <p class="skills-p">HTML5</p>
+                    <p class="skills-p2">Intermediário</p>
+                  </div>
+          
+                  <div>
+                    <img class="a " src="../img/css-logo-black-and-white.png">
+                    <p class="skills-p">CSS3</p>
+                    <p class="skills-p2">Intermediário</p>
+                  </div>
+          
+                  <div>
+                    <img class="b" src="../img/javascript_logo_icon_145155.webp">
+                    <p class="skills-p">Javascript</p>
+                    <p class="skills-p2">Intermediário</p>
+                  </div>
+          
+                  <div>
+                    <img class="c p-2 col-6" src="../img/Bootstrap Logo.png">
+                    <p class="skills-p">Bootstrap</p>
+                    <p class="skills-p2">Intermediário</p>
+                  </div>
+                </div>
+                <div><img class="icon flecha icone-flecha" src="../img/double-arrow.png" alt="Ícone de flecha" onclick="location.href='./#projetos'"></div>
+              </div>
           </div>
-        </div>
+        </section>
 
         <div id="projetos" class="px-2 my-5 border rounded border-0 ">
           <div class="py-5 container-fluid justify-content-center row text-center">
-              <h1 class="a text-white">Projetos</h1>
-              <div class="bg-dark ms-3 mt-3 col-sm-4 align-items-center card border border-0">
+              <h3 class="sobre-h3 text-secondary">Alguns dos meus</h3>
+              <h1 class="a text-dark title">Projetos</h1>
+              <div class="ms-3 mt-3 col-sm-4 align-items-center card border-2">
                 <img src="img/Captura de tela 2024-03-07 131102.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title text-white">Loja de Roupas</h5>
-                  <p class="card-text text-white">Loja de roupas feita somente com HTML5, CSS3, Javascript e Bootstrap</p>
-                  <a href="https://projeto-loja-de-roupas.netlify.app/" class="btn btn-dark">Ver Projeto</a>
+                  <h5 class="card-title text-dark">Loja de Roupas</h5>
+                  <p class="card-text text-dark">Loja de roupas feita somente com HTML5, CSS3, Javascript e Bootstrap</p>
+                  <div class="btn-container"><a href="https://projeto-loja-de-roupas.netlify.app/" class="button btn-color-1">Ver Projeto</a></div>
                 </div>
               </div>
-
-              <!--<div class="bg-dark ms-3 mt-3 col-sm-4 align-items-center card border border-0">
-                <img src="" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title text-white">Componente Interativo</h5>
-                  <p class="card-text text-white">Componente Interativo feito  somente com HTML5, CSS3, Javascript e Bootstrap</p>
-                  <a href="#" class="btn btn-dark">Ver Projeto</a>
-                </div>
-              </div> !-->
           </div>
+          <div><img class="icon flecha icone-flecha" src="../img/double-arrow.png" alt="Ícone de flecha" onclick="location.href='./#contatos'"></div>
         </div>
+
+        <section id="contatos">
+          <p class="sobre-h3 section_text_p1">Fale comigo!</p>
+          <h1 class="contact-title title">Meus Contatos</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img src="../img/Email icon.png" alt="email icon" class="icon contact-icon">
+              <p><a class="contact-hover" href="mailto:ianborges20@outlook.com">ianborges20@outlook.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img src="../img/Linkedin logo.png" alt="linkedin icon" class="icon contact-icon">
+              <p><a class="contact-hover" href="https://www.linkedin.com/in/ian-borges-00507726a/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img src="../img/Instagram icon.png" alt="instagram icon" class="icon contact-icon">
+              <p><a class="contact-hover" href="https://www.instagram.com/ian._.borges/">Instagram</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img src="../img/whatsapp icon.png" alt="whatsapp icon" class="icon contact-icon">
+              <p><a class="contact-hover" href="http://Wa.me/5573991858890">WhatsApp</a></p>
+            </div>
+          </div>
+          
+        </section>
         
     </main>
 
-    <footer id="contatos">
-
-      <div class="px-5 py-5 container border rounded border-0">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="footer-section">
-                    <h3 class="text-white">Redes Sociais</h3>
-                    <ul class="social-links">
-                        <li><a class="c" href="https://www.instagram.com/ian._.borges/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
-                        <li><a class="c" href="http://Wa.me/5573991858890" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="footer-section">
-                    <h3 class="text-white">Contato</h3>
-                    <ul class="contact-info">
-                        <li class="c text-white">Telefone: 73 99185-8890</li>
-                    </ul>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="footer-section">
-                    <h3 class="text-white">Email</h3>
-                    <ul class="contact-info">
-                        <li><a class="c text-white" href="mailto:ianborges20@outlook.com">ianborges20@outlook.com</a></li>
-                    </ul>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="footer-section">
-                    <h3 class="text-white">Meu Github</h3>
-                    <ul class="contact-info">
-                        <li><a class="c text-white" href="https://github.com/IanBorgess">github.com/IanBorgess</a></li>
-                    </ul>
-                </div>
-              </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="navlinks">
+            <li>
+              <a class="text-secondary" aria-current="page" href="#">Home</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#quemsoueu">Quem sou eu?</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#skills">Skills</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#projetos">Projetos</a>
+            </li>
+            <li>
+              <a class="text-secondary" href="#contatos">Fale Comigo!</a>
+            </li>
+          </ul>
         </div>
-      </div>
-
+      </nav>
+      <p class="copyright">Copyright &#169; 2024 Ian Borges. Todos os Direitos Reservados.</p>
     </footer>
 
   </body>
