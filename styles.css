@@ -184,7 +184,7 @@ img.c{
   #quemsoueu{
     position: relative;
     margin: 5rem;
-    height: 80vh;
+    height: 90vh;
     padding-top: 70px;
   }
   .sobre-p1{
@@ -481,7 +481,8 @@ img.c{
 
     }
     #quemsoueu{
-      height: 130vh;
+      height: 100vh;
+      font-size:small;
     }
     #skills{
       height: 130vh;
@@ -538,14 +539,14 @@ img.c{
   }
   @media screen and (max-width: 400px) {
     #contatos{
-      height: 70vh;
+      height: 80vh;
 
     }
     #quemsoueu{
-      height: 150vh;
+      height: 140vh;
     }
     #skills{
-      height: 150vh;
+      height: 180vh;
     }
     
   }
