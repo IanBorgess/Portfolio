@@ -537,9 +537,9 @@ img.c{
       text-align: justify;
     }
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     #contatos{
-      height: 80vh;
+      height: 82vh;
 
     }
     #quemsoueu{
@@ -549,4 +549,16 @@ img.c{
       height: 180vh;
     }
     
+  @media screen and (max-width: 380px) {
+    #contatos{
+      height: 100vh;
+
+    }
+    #quemsoueu{
+      height: 190vh;
+    }
+    #skills{
+      height: 200vh;
+    }
+  }
   }
